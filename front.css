@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f5f2;
+    color: #333;
+}
+
+
+header {
+    height: 70px;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.logo {
+    color: #d4af37;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.br {
+    padding: 1px;
+}
+.offer {
+    height: 550px;
+    background: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url("two-barbers-chairs-in-front-of-mirrors-inside-room.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.three {
+    color: white;
+    font-weight: bold;
+}
+.three span{
+    color: yellow;
+    
+}
+
+.three p {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+.one {
+    height: 550px;
+    background: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+    url("gettyimages-1364134563-612x612.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.two {
+    color: white;
+}
+
+.one h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.one h1 span {
+    color: #d4af37;
+}
+
+.one p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.two button a{
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background: #d4af37;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+button:hover {
+    background:rgb(118, 118, 243);
+}
+
+
+.service {
+    padding: 50px 60px;
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 35px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 240px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.copy {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+ 
+body{
+    background-color: pink;
+    height: 100vh;
+    color: #333;
+}
+
+.one{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px ;
+}
+
+.two h1{
+    color: rgb(2, 17, 120);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.three .heading{
+    display: flex;
+    gap: 60px;
+    
+}
+.three{
+    text-decoration: none;
+}
+
+
+.heading :hover{
+    color: rgb(131, 93, 227);
+    font-weight: bold;
+    
+}
+
+.heading a{
+    color: black;    
+}
+
+.home{
+    text-decoration: none;
+}
+
+.about{
+    text-decoration: none;
+}
+
+.serv{
+    text-decoration: none;
+}
+
+.gall{
+    text-decoration: none;
+}
+
+.cont{
+    text-decoration: none;
+}
+
+
+
+.search{
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #c86a6a;
+    border-radius: 5px ;
+}
+
+.search-btn{
+    padding: 8px 20px;
+    background-color: #c86a6a;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}   
+
+.search-btn:hover{
+    background: yellow;
+}
+
+.four{
+    width: 90%;
+    max-width: 1200px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    
+
+.five{
+    font-size: 75px;
+    margin-bottom: 10px;
+    columns: #333;
+}
+
+.five span{
+    color: rgb(133, 8, 116);
+}
+
+.six{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+
+}
+
+
+.form{
+    width: 350px;
+    background: rgba(255,255,255,0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.seven{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(192, 44, 160);
+}
+
+.form form input{
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    color:pink;
+}
+
+.form button{
+    width: 100%;
+    padding: 10px;
+    background: rgb(229, 59, 206);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form button a{
+    color: white;
+    text-decoration: none;
+}
+
+.form button:hover{
+    background: white;
+    color: black;
+    border: 1px solid;
+
+}
+
+.eight{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nine{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nine a{
+    margin: 20px;
+    color: rgb(229, 59, 206);
+}
+
+.fb{
+    text-decoration: none;
+
+}
+
+.insta{
+    text-decoration: none;
+}
+
+.x{
+    text-decoration: none   ;
+}
+
+.nine :hover{
+    background: white;
+    color: black;
+}
+
+.copy {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
