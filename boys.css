@@ -30,6 +30,16 @@ header a {
     text-decoration: none;
 }
 
+#one{
+    
+}
+
+#one video{
+    height: 100%;
+    width: 100%;
+}
+
+
 .boys-page {
     text-align: center;
     padding: 40px;

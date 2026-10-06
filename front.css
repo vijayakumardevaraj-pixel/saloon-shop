@@ -37,9 +37,47 @@ nav a:hover {
     color: #d4af37;
 }
 
-.br {
-    padding: 1px;
+
+#one video{
+    height: 100%;
+    width: 100%;
 }
+
+#one .two{
+    background-color: 0,0,0,0,rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.two{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.two h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.two span{
+    justify-content: center;
+    color: yellow;
+}
+
+.two p{
+    color: white;
+     margin-bottom: 20px;
+}
+.two button a{
+    color: white;
+    text-decoration: none;
+}
+
 .offer {
     height: 550px;
     background: linear-gradient(
@@ -71,45 +109,6 @@ nav a:hover {
 }
 
 
-.one {
-    height: 550px;
-    background: linear-gradient(
-        rgba(0,0,0,0.55),
-        rgba(0,0,0,0.55)
-    ),
-    url("gettyimages-1364134563-612x612.jpg");
-
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-
-.two {
-    color: white;
-}
-
-.one h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
-}
-
-.one h1 span {
-    color: #d4af37;
-}
-
-.one p {
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-.two button a{
-    color: white;
-    text-decoration: none;
-}
 
 button {
     background: #d4af37;
