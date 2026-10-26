@@ -27,14 +27,14 @@ header {
     font-weight: bold;
 }
 
-div a {
+nav a {
     color: white;
     text-decoration: none;
     margin-left: 30px;
     font-size: 16px;
 }
 
-div a:hover {
+nav a:hover {
     color: #d4af37;
 }
 
@@ -54,7 +54,6 @@ div a:hover {
 }
 
 .two{
-    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -124,10 +123,13 @@ div a:hover {
 button {
     background: #d4af37;
     border: none;
-    padding: 12px 25px;
+    padding: 12px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
