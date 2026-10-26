@@ -37,8 +37,7 @@ header a{
     height: 100%;
     width: 100%;
 }
-#one .two{
-    background-color: 0,0,0,0,rgba(0, 0, 0, 0.5);
+#one .two{ 
     height: 100%;
     width: 100%;
     position: absolute;
