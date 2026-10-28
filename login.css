@@ -4,7 +4,7 @@
 
 }
 body {
-    background-image:url(background_image_login.jpg);
+    background-image:url(login_image.jpg);
     background-size: cover;
     background-position: center;
    
@@ -34,24 +34,33 @@ body {
 
 
 .three {
-    color: yellow;
+    color: black;
     text-align: center;
     font-size: 25px;
     
     
 }
 .three h1 {
+    color: white;
     margin-bottom: 20px;
 }
 
+form p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
 form {
+    padding: 50px;
+    background-image: linear-gradient(to left, rgba(247, 183, 183, 0.945));
     width: 400px;
     height: 550px;
     align-items: center;
     margin-left: 520px;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 10px;
-    
     
 }
 .log-forms{
@@ -60,19 +69,21 @@ form {
     
 }
 .log-form label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
     display: block;
-    font-size: 20px;
-    color: white;
+    font-size: 14px;
+    color: rgba(82, 6, 6, 0.772);
 }
 .log-form textarea{
     padding: 10px;
-    border: 4px solid white;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: rgba(255, 239, 213, 0.47);
 }
 form input{
     padding: 10px;
-    border: 4px solid white;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: rgba(255, 239, 213, 0.47);
     margin-bottom: 10px;
@@ -82,7 +93,7 @@ form input{
 
 .log-form select{
     padding: 10px;
-    border: 4px solid white;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: rgba(255, 239, 213, 0.47);
 }
@@ -90,19 +101,24 @@ form input{
     border-radius: 10px;
 }   
 
-button{
-    padding: 5px;
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: black;
-    background-color: white;
-    border: none;
+
+.log-button{
+    margin-top: 40px;
+    text-decoration: none;
     border-radius: 10px;
+
+}
+.log-button a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(209, 115, 131);
+
 }
 
-.log-button :hover {
-    background-color: black;
+a:hover{
+    background-color: rgb(212, 44, 72);
     color: white;
 }
 
