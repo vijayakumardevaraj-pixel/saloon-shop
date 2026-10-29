@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vn saloon shop</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
+
     <header class="one">
         <div>
             <h1>VN UNISEX SALOON</h1>
@@ -17,16 +18,16 @@
             <a href="index.html">Home</a>
         </div>
     </header>
-
+    <img src="image_and_video/background_image_login.jpg">
     <div class="two">
         <div class="three">
             <h1>Book Your Appointment</h1>
-            
+
         </div>
 
         <form>
             <p>Beauty begins with you!</p>
-            
+
             <div class="log-form">
                 <label>Name</label>
                 <input type="text" placeholder="Your Name" required>
@@ -34,7 +35,7 @@
 
             <div class="log-form">
                 <label>Phone Number</label>
-                <input type="tel" placeholder="Phone Number" requ>
+                <input type="tel" placeholder="Phone Number" required>
             </div>
 
             <div class="log-form">
@@ -76,13 +77,18 @@
                 <textarea placeholder="Your Message"></textarea>
             </div>
             <div class="log-button">
-                <a href="index.html">Book Now</a>
+                <a onclick="ram()">Book Now</a>
             </div>
         </form>
-
-
 
 
 </body>
 
 </html>
+
+<script>
+    function ram()
+    {
+        alert("Successfully Booked")
+    }
+</script>

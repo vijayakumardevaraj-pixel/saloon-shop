@@ -46,6 +46,7 @@ nav a:hover {
 #one video{
     height: 100%;
     width: 100%;
+    padding-bottom: -5;
 }
 
 
@@ -84,21 +85,18 @@ nav a:hover {
     text-decoration: none;
 }
 
-.offer {
-    height: 550px;
-    background: linear-gradient(
-        rgba(0,0,0,0.55),
-        rgba(0, 0, 0, 0.55)),
-    url("two-barbers-chairs-in-front-of-mirrors-inside-room.jpg");
+.offer img{
+    height: 600px;
+    width: 100%;
+} 
 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: -3px;
+.three {
+    position: absolute;
+    left: 39%;
+    top: 110%;
 }
+
+
 
 .three h1 {
     color: white;
@@ -187,6 +185,7 @@ button:hover {
 }
 
 .six {
+    padding-bottom: 20px;
     text-align: center;
 }
 
