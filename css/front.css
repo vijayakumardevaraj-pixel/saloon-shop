@@ -88,6 +88,11 @@ nav a:hover {
     text-decoration: none;
 }
 
+.two a:hover{
+    color: white;
+    background-color: rgb(118, 118, 243);
+}
+
 .offer img{
     height: 600px;
     width: 100%;
