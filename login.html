@@ -32,7 +32,7 @@
             <h1>Book Your Appointment</h1>
 
         </div>
-    <!--box form  -->
+        <!--box form  -->
         <form>
             <p>Beauty begins with you!</p>
 
@@ -43,7 +43,7 @@
 
             <div class="log-form">
                 <label>Phone Number</label>
-                <input type="tel" placeholder="Phone Number" required>
+                <input type="tel" placeholder="Phone Number" maxlength="10" required>
             </div>
 
             <div class="log-form">
@@ -67,7 +67,7 @@
 
             <div class="log-form">
                 <label>Appointment Date</label>
-                <input type="date">
+                <input type="date" min="2026-11-03">
             </div>
             <div class="log-form">
                 <label>Select Time</label>
@@ -85,17 +85,22 @@
                 <textarea placeholder="Your Message"></textarea>
             </div>
             <div class="log-button">
-                <a onclick="ram()">Book Now</a>
+                <!-- <a onclick=form()>Book Now</a> -->
+                 <button type="submit">Booked</button>
             </div>
         </form>
 
 
 </body>
+
 </html>
 
 <script>
-    function ram()
-    {
-        alert("Successfully Booked")
-    }
+const contactForm = document.querySelector("form");
+contactForm.addEventListener("submit", function(event)
+ {
+    event.preventDefault();
+    alert("Form submitted successfully!");
+    contactForm.reset();
+});
 </script>

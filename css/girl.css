@@ -94,7 +94,6 @@ header a :hover{
 .services {
     display:flex ;
     flex-wrap: wrap;
-    grid-template-columns: 4,auto;
     justify-content: space-around;
     gap: 20px;
     
@@ -126,9 +125,11 @@ header a :hover{
     color: #d4af37;
     font-size: 20px;
     font-weight: bold;
-}
+}   
 
 .service img{
+    width: 200px;
+    height: 300px;
     border-radius: 10%;
     margin-bottom: 10px;
 }

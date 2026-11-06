@@ -106,22 +106,21 @@ form input{
 
 
 .log-button{
-    margin-top: 40px;
-    text-decoration: none;
-    border-radius: 10px;
-
+    margin-top: 10px;
 }
-.log-button a {
+
+.log-button button {
     color: black;
     padding: 12px 14px;
     text-decoration: none;
+    border: none;
     border-radius: 10px;
     background-color: rgb(209, 115, 131);
     cursor: pointer;
 
 }
 
-.log-button a:hover{
+.log-button button:hover{
     background-color: rgb(212, 44, 72);
     color: white;
 }
